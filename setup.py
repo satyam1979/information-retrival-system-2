@@ -1,8 +1,10 @@
-from setuptools import find_package ,setup
+from setuptools import find_packages ,setup
 
-setup(name="Generative Ai System",
-
-        version ="0.0.0",
-        author="Satyendra Kumar Verma",
-        author_email="st.verman@gmail.com",
-        )
+setup(
+      name =  "Generative AI project",
+      author= "Satyendra Verma",
+      version= "0.0.0",
+      author_email ="st.verman@gmail.com",
+      packages= find_packages(),
+      install_requires= []
+      )
